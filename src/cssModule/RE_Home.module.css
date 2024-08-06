@@ -1,0 +1,130 @@
+.pageWrapper {
+    width: 350px;
+    height: 85vh;
+    margin-top: 130px;
+    font-family: Pretendard-variable, sans-serif;
+}
+
+.recommendWrapper {
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.25);
+    margin: 0 auto;
+    width: 330px;
+    padding: 15px;
+    box-sizing: border-box;
+    margin-bottom: 60px;
+}
+
+.imageWrapper {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.imageWrapper img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    opacity: 0.5;
+}
+
+.imageWrapper div div {
+    font-size: 14px;
+}
+
+.coachWrapper {
+    margin: 0 auto;
+    width: 330px;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.25);
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.container {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 16px;
+    background-color: #fff;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+
+  .header div:last-child {
+    opacity: 0.5;
+  }
+  
+  .more {
+    color: #888;
+  }
+  
+  .message {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 16px;
+  }
+  
+  .profileImage {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 12px;
+  }
+  
+  .textContainer {
+    flex: 1;
+  }
+  
+  .name {
+    font-weight: bold;
+    margin-right: 8px;
+  }
+  
+  .time {
+    color: #888;
+  }
+  
+  .text {
+    margin-top: 4px;
+    line-height: 1.5;
+  }
+
+  .profileWrapper {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profileWrapper img{
+    width: 24px;
+    height: 24px;
+  }
+
+  .profile {
+    text-align: left;
+  }
+
+  .profile div{
+    font-weight: 600;
+    font-size: 10px;
+  }
+
+  .profile div:last-child {
+    font-weight: 500;
+    opacity: 0.5;
+    font-size: 7px;
+  }
+
+  .contentWrapper {
+    position: relative;
+    width: 78%;
+    top: 10px;
+  }
+
+  .contentWrapper div {
+    font-size: 11px;
+    height: auto;
+  }

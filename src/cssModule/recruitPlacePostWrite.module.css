@@ -1,0 +1,140 @@
+.pageWrapper {
+    margin-top: 130px;
+    height: 85vh;
+    width: 350px;
+}
+
+.container {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.titleWrapper {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.phoneWrapper {
+    display: flex;
+}
+
+.inputField {
+    background-color: #e0e0e0;
+    border: none;
+    padding: 10px 0;
+    border-radius: 10px;
+    font-size: 15px;
+    line-height: 100%;
+    text-align: center;
+    width: 260px;
+    height: 40px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.checkboxWrapper {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.checkboxContainer {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.checkboxContainer input {
+    width: 15px;
+}
+
+.checkboxContainer label {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.imgWrapper {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    margin-bottom: 10px;
+}
+
+.imgInput {
+    display: flex;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    background-color: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.selectWrapper {
+    gap: 10px;
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.selectWrapper input {
+    text-align: center;
+    width: 48%;
+    margin: 0;
+    font-size: 15px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.selectWrapper input:last-child {
+    width: 33%;
+    padding: 0 10px;
+}
+
+.textWrapper {
+    margin-top: 30px;
+    box-sizing: border-box;
+    height: 340px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    padding: 18px 14px;
+    border-radius: 5px;
+}
+
+.textWrapper textarea {
+    font-family: Pretendard-variable, sans-serif;
+    font-size: 20px;
+    width: 300px;
+    height: 100%;
+    border: none;
+}
+
+.textWrapper textarea:focus {
+    outline: none;
+}
+
+.btnWrapper {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 30px; /* 버튼 간격 조정 */
+}
+
+.btnWrapper button {
+    width: 37%;
+    height: 37px;
+    border-radius: 15px;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.25);
+    padding: 9.5px 40px;
+}
+
+.postBtn {
+    background-color: #B1F8B8;
+}

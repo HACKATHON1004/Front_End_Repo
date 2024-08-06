@@ -1,0 +1,36 @@
+.container{
+    width: 100%;
+    max-width: 430px;
+    max-height: 1409px;
+  
+  }
+  .Form{
+    width: 430px;
+    height: 932px;
+    padding: 20px;
+    padding-top: 60px;
+  }
+  .ServiceIntroWapper{
+    width: 300px;
+    height: 325px;
+  }
+  .ServiceIntroduction{
+    width: 140px;
+    height: 25px;
+    display: flex;
+    font-size: 25px;
+    font-family: 'PretendardVariable', sans-serif;
+    font-weight: 400;
+  }
+  .SourcesWapper{
+    width: 300px;
+    height: 300px;
+  }
+  .Sources{
+    display: flex;
+    width: 53px;
+    height: 25px;
+    font-size: 25px;
+    font-family: 'PretendardVariable', sans-serif;
+    font-weight: 400;
+  }

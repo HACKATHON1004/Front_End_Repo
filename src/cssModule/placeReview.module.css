@@ -1,0 +1,168 @@
+.pageWrapper {
+    margin-top: 50px;
+    width: 350px;
+    height: 85vh;
+}
+
+.title {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    height: 66px;
+}
+
+.title div span {
+    font-family: Pretendard-variable, sans-serif;
+    font-size: 25px;
+}
+
+.map {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    height: 500px;
+}
+
+.searchBar {
+    display: flex;
+    height: 45px;
+    align-items: center;
+    padding: 8px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.25);
+    margin-bottom: 9px;
+}
+
+.inputField {
+    height: 40px;
+    box-sizing: border-box;
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 24px;
+    margin: 0;
+}
+
+.iconButton {
+    background: none;
+    border: none;
+    margin-left: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    fill: #666;
+}
+
+.icon:hover {
+    fill: #000;
+}
+
+.buttonWrapper {
+    margin-top: 21px;
+    display: flex;
+    gap: 11px;
+}
+
+.button button{
+    font-family: Pretendard-variable, sans-serif;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.25);
+    box-sizing: border-box;
+    border-radius: 15px;
+    padding: 7px 10px;
+    width: 82px;
+    height: 32px;
+    font-size: 13px;
+}
+
+.cardWrapper {
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    margin-top: 11px;
+}
+
+.card {
+    font-family: Pretendard, sans-serif;
+    margin: 15px auto 0 auto;
+    height: 77px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .imageSection {
+    
+    width: 20%;
+    border-radius: 10px 0 0 10px;
+    background-color: #8DCDFC; /* Light blue */
+    padding: 10px;
+  }
+  
+  .catImage {
+    width: 50px; /* Adjust the size as needed */
+    height: 50px;
+  }
+  
+  .textSection {
+    text-align: center;
+    width: 80%;
+    height: 76.5px;
+    box-sizing: border-box;
+    border-radius: 0 10px 10px 0;
+    padding: 10px;
+    background-color: #F1F1F1; /* White */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .textSection div {
+    
+  }
+  
+  .placeTitle {
+    font-weight: 800;
+    font-size: 20px;
+    color: #003366; /* Dark blue */
+    margin: 0;
+  }
+  
+  .subText {
+    font-size: 14px;
+    color: #666666; /* Gray */
+    margin: 5px 0 0 0;
+  }
+  
+  .distance {
+    font-size: 14px;
+    color: #999999; /* Lighter gray */
+    margin: 5px 0 0 0;
+  }
+
+  .detail {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .detail div:first-child {
+    font-weight: 700;
+  }
+
+
+  

@@ -1,0 +1,99 @@
+.container{
+    
+   
+    max-width: 430px;
+    max-height: 1045px;
+   
+}
+.Form{
+width: 400px;
+height: 1409px;
+margin-top: 55px;
+}
+.ParentWrapper{
+    width: 320px;
+    height: 99px;
+}
+.Parent{
+    width: 290px;
+    height: 30px;
+    font-weight: 400;
+    font-size: 30px;
+    display: flex;
+    font-family: 'PretendardVariable', sans-serif;
+}
+.trueandfalse{
+    display: flex;
+    width: 261px;
+    height: 24px;
+}
+
+/* .Button{
+
+ margin-top: 700px;
+}
+.SubmitButton{
+    color: white;
+    background-color: #2C92FE; 
+    border: 1px solid #2C92FE;     
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.25);
+    font-family: 'PretendardVariable', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    width: 102px;
+    height: 44px;
+
+    
+
+} */
+.CheckboxContainer{
+    width: 261px;
+    height: 24px;
+    display: flex;
+    color: black;
+    
+}
+.Wrapper{
+    width: 261px;
+    height: 24px;
+    display: flex;
+ 
+}
+.viewWrapper{
+    width: 120px;
+    height: 24px;
+    margin-top: 43px;
+    display: flex;
+    margin-left: 72px;
+    
+}
+.viewWrapper:first-child {
+margin-left: 0;
+}
+.Checkbox{
+width: 18px;
+height: 18px;
+display: flex;
+margin-right: 37px;
+accent-color: black; 
+
+
+}
+.Saw{
+    width: 76px;
+    height: 24px;
+    display: flex;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'PretendardVariable', sans-serif;
+   
+    
+}
+
+input{
+    margin: 5px;
+}

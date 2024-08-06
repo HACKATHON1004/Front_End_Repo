@@ -1,0 +1,297 @@
+.Modifycontainer{
+    margin-top: 130px;
+    width: 350px;
+    max-width: 430px;
+    max-height: 1045px;
+}
+.Form{
+    height: 932px;
+}
+
+.NWapper{
+    width: 250px;
+    height: 60px;
+    margin-top: 14px;
+}
+.Nmodify{
+    width: 60px;
+    height: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+    font-family: 'PretendardVariable', sans-serif;
+}
+.Ninput{
+    width: 250px;
+    height: 18px;
+    font-size: 14px;
+}
+.NinputField{
+    width: 250px;
+    height: 18px;
+    font-size: 14px;
+}
+.NButton{
+    width: 84px;
+    height: 35px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'PretendardVariable', sans-serif;
+    background-color: #ffffff; 
+    border: 1px solid #ffffff;     
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.Nmessage{
+    width: 84px;
+    height: 35px;
+    color:red;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'PretendardVariable', sans-serif;
+}
+.NBwapper{
+    display: flex;
+    width: 350px;
+    height: 35px;
+    align-items: center;
+}
+
+.Nsuccess {
+    text-align: left;
+    color: red;
+    width: 70%;
+}
+.Nsuccess2 {
+    text-align: left;
+    color: green;
+    width: 70%;
+}
+.Nerror{
+    display: flex;
+    width: 200px;
+    font-size: 13px;
+    height: 18px;
+    color:red;
+    font-weight: 600;
+    font-family: 'PretendardVariable', sans-serif;
+   
+}
+.NButton{
+  
+    width: 80px;
+    height: 36px;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'PretendardVariable', sans-serif;
+}
+.AWapper{
+    margin-top: 50px;
+    width: 116px;
+    height: 48px;
+}
+.Amodify{
+    display: flex;
+    width: 40px;
+    height: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'PretendardVariable', sans-serif;
+}
+.Ainput{
+    width: 116px;
+    height: 19px;
+    display: flex;
+    font-size: 14px;
+}
+.AinputField{
+    width: 116px;
+    height: 19px;
+    font-size: 14px;
+    display: flex;
+}
+.GWapper{
+    margin-top: 71px;
+    width: 157px;
+    height: 51px;
+}
+.Gender{
+    display: flex;
+    width: 157px;
+    height: 20px;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'PretendardVariable', sans-serif;
+}
+.Gselect{
+    display: flex;
+    width: 93px;
+    height: 26px;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'PretendardVariable', sans-serif;
+    
+}
+.DWapper{
+    margin-top: 20px;
+    width: 290px;
+    height: 51px;
+    
+    
+}
+.Dis{
+    width: 89px;
+    height: 20px;
+    display: flex;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'PretendardVariable', sans-serif;
+}
+.Dselect{
+    display: flex;
+    width: 93px;
+    height: 26px;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'PretendardVariable', sans-serif;
+    
+}
+.DisWapper{
+    display: flex;
+}
+.DisWapper select {
+    margin-right: 16px;
+}
+
+.DisWapper:last-child {
+    margin-right: 0;
+}
+
+.FSWapper{
+    width: 268px;
+    height: 51px;
+    margin-top: 20px;
+}
+.FSport{
+    margin-top: 50px;
+    width: 275px;
+    height: 20px;
+    font-size: 17px;
+    display: flex;
+    font-weight: 400;
+    font-family: 'PretendardVariable', sans-serif;
+}
+.FSportselect{
+    margin-top: 50px;
+    display: flex;
+    width: 93px;
+    height: 26px;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'PretendardVariable', sans-serif;
+}
+.WSWapper{
+    margin-top: 0px;
+    width: 256px;
+    height: 51px;
+}
+.WSport{
+    margin-top: 100px;
+    width: 256px;
+    height: 20px;
+    font-size: 17px;
+    display: flex;
+    font-weight: 400;
+    font-family: 'PretendardVariable', sans-serif;
+}
+.WSportselect{
+    display: flex;
+    width: 93px;
+    height: 26px;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'PretendardVariable', sans-serif;
+}
+.PWapper{
+    margin-top: 20px;
+    width: 256px;
+    height: 51px;
+}
+.Parent{
+    margin-top: 100px;
+    width: 256px;
+    height: 20px;
+    font-size: 17px;
+    display: flex;
+    font-weight: 400;
+    font-family: 'PretendardVariable', sans-serif;
+}
+.guardianselect{
+    display: flex;
+    width: 93px;
+    height: 26px;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'PretendardVariable', sans-serif;
+}
+.modifyWapper{
+    margin: 50px auto;
+    height: 50px;
+    width: 280px;
+    
+}
+.modifyButton{
+    width: 110px;
+    height: 48px;
+    font-size: 16px;
+    font-weight: 600;
+    
+    background-color: #B9E0FD; 
+    border: 1px solid #B9E0FD;     
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.25);
+    
+}
+
+.FSWapper {
+    width: 268px;
+    height: auto; 
+    margin-top: 20px;
+  }
+  
+  .FSport {
+    width: 275px;
+    height: 20px;
+    font-size: 17px;
+    display: flex;
+    font-weight: 400;
+    font-family: 'PretendardVariable', sans-serif;
+  }
+  
+  .FSportselect {
+    display: flex;
+    flex-direction: column; 
+    margin-top: 10px; 
+  }
+  
+  .FSportselect label {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'PretendardVariable', sans-serif;
+    margin-bottom: 5px; 
+  }
+  
+  .FSportselect input {
+    margin-right: 10px; 
+    width: 16px; 
+    height: 16px; 
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    transform: scale(0.8);
+    margin-top: -2px;
+    margin-bottom: -2px;
+  }
+  
+  

@@ -1,0 +1,85 @@
+.comment {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #a6a2a2;
+    height: 74px;
+    padding: 4px 5px;
+}
+
+.text {
+    margin: 0;
+    width: 200px;
+    height: 25px;
+    font-size: 13px;
+}
+
+.comment img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.commentContent {
+    width: 70%;
+}
+
+.commentContent div:nth-child(2) {
+    width: 240px;
+    display: flex;
+    height: 30px;
+    gap:10px;
+}
+
+.commentContent div:nth-child(2) button {
+    width: 45px;
+    font-size: 10px;
+}
+
+.commentContent .username {
+    display: flex;
+    font-size: 10px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.commentContent .text {
+    display: flex;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.commentContent .timestamp {
+    display: flex;
+    color: #888;
+    font-size: 12px;
+}
+
+.menuWrapper {
+    display: flex;
+    justify-content: end;
+    height: 67px;
+}
+
+.menuBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 22px;
+    height: 5px;
+}
+
+.menuBar div {
+    width: 7px;
+    height: 7px;
+    background-color: gray;
+    border-radius: 50%;
+}
+
+.reply {
+    margin-left: 9px;
+    color: #888;
+    cursor: pointer;
+    font-size: 12px;
+}
+.reply:hover {
+    text-decoration: underline;
+}

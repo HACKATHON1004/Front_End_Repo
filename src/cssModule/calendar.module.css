@@ -1,0 +1,99 @@
+.pageWrapper {
+    margin-top: 100px;
+    height: 100vh;
+    width: 360px;
+    justify-content: center;
+    font-family: Pretendard-variable, sans-serif;
+}
+
+.calendar {
+    gap: 10px;
+    height: 500px;
+    background-color: white;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.up {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 57px;
+}
+
+.up span {
+    font-size: 30px;
+    font-family: Pretendard-variable, sans-serif;
+    font-weight: 600;
+}
+
+.days {
+    font-size: 25px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(7, 1fr);
+    text-align: center;
+}
+
+.dayName {
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.day, .otherMonth {
+    width: 40px;
+    height: 40px;
+    font-weight: bold;
+    border-radius: 50%;
+    text-decoration: none;
+    color: black;
+}
+
+.currentDay {
+    bottom: 2px;
+    position: relative;
+    box-sizing: border-box;
+    width: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid red;
+}
+
+.otherMonth {
+    color: #ccc;
+}
+
+.plan {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 67px;
+    border-top: 1px solid #A6A2A2;
+}
+
+.plan div {
+    width: 50%;
+    text-align: center;
+}
+
+.plan div:last-child {
+    width: 50%;
+}
+
+.plan div span {
+    font-size: 20px;
+    font-family: Pretendard-variable, sans-serif;
+}
+
+.plan div:last-child span {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.plan:last-child {
+    border-bottom: 1px solid #A6A2A2;
+}

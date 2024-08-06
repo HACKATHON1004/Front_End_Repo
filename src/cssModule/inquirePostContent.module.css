@@ -1,0 +1,100 @@
+.pageWrapper {
+    width: 350px;
+    height: 80vh;
+    margin-top: 130px;
+    font-family: Pretendard-variable, sans-serif;
+}
+
+.inquireWrapper {
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.25);
+    padding: 10px 20px;
+    height: 270px;
+}
+
+.btnWrapper {
+  margin-top: 13px;
+  display: flex;
+  justify-content: end;
+}
+
+.postBtn {
+  display: flex;
+  margin-bottom: 20px;
+          align-items: center;
+          padding: 10px 7px;
+          border: none;
+          border-radius: 15px;
+          background-color: #f8f8f8;
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+          cursor: pointer;
+          font-size: 16px;
+          font-family: Arial, sans-serif;
+}
+
+.headerWrapper {
+    height: 30px;
+    text-align: center;
+    display: flex;
+    margin-bottom: 26px;
+  }
+
+  .content {
+    height: 250px;
+    overflow-y: auto;
+  }
+
+  .profileImage {
+    width: 29px;
+    height: 29px;
+    border-radius: 50%;
+    margin-right: 8px;
+  }
+
+  .userInfo {
+    text-align: left;
+    height: 29px;
+    flex-grow: 1;
+    font-size: 0;
+  }
+
+  .userInfo span {
+    font-size: 10px;
+    font-family: Pretendard-variable, sans-serif;
+    line-height: 100%;
+  }
+
+  .userInfo span:first-child {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  
+  .username {
+    display: block;
+    font-weight: bold;
+  }
+  
+  .timestamp {
+    color: #777;
+    font-size: 10px;
+  }
+
+  .menuWrapper {
+    display: flex;
+    justify-content: end;
+    height: 67px;
+}
+
+.menuBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 22px;
+    height: 5px;
+}
+
+.menuBar div {
+    width: 7px;
+    height: 7px;
+    background-color: gray;
+    border-radius: 50%;
+}

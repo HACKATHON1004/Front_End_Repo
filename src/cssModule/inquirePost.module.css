@@ -1,0 +1,112 @@
+.pageWrapper {
+    height: 80vh;
+    width: 316px;
+    margin-top: 130px;
+    font-family: Pretendard-variable, sans-serif;
+}
+
+.header {
+    margin-top: 109px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 11px;
+}
+
+.titleWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 251px;
+}
+
+.title {
+    box-sizing: border-box;
+    height: 40px;
+    width: 100%; /* 입력 상자의 너비를 조정할 수 있습니다 */
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #d9d9d9; /* 회색 배경 */
+    font-size: 16px;
+    font-family: Pretendard-variable, sans-serif;
+}
+
+.imgWrapper {
+    display: flex;
+    height: 40px;
+    background-color: #d9d9d9;
+    border: none;
+    border-radius: 10px;
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+.contentWrapper {
+    box-sizing: border-box;
+    margin-top: 29px;
+    height: 412px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    padding: 18px 14px;
+    border-radius: 5px;
+}
+
+.contentWrapper textarea {
+    font-family: Pretendard-variable, sans-serif;
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+}
+
+.btnWrapper {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 30px; /* 버튼 간격 조정 */
+}
+
+.btnWrapper button {
+    width: 37%;
+    height: 37px;
+    border-radius: 15px;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.25);
+    padding: 9.5px 40px;
+}
+
+.postBtn {
+    background-color: #B1F8B8;
+}
+
+.menuWrapper {
+    height: 0px;
+    display: flex;
+    justify-content: end;
+}
+
+.menu {
+    position: relative;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    width: 183px;
+    height: 133px;
+    background-color: #666;
+    color: white;
+    border-radius: 10px;
+}
+
+.menuItem {
+    padding: 10px;
+    border-bottom: 1px solid #888;
+    cursor: pointer;
+}
+
+.menuItem:last-child {
+    border-bottom: none;
+}
+
+.menuItem:hover {
+    background-color: #555;
+}

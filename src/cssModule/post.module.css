@@ -1,0 +1,88 @@
+.postWrapper {
+  font-family: Pretendard, sans-serif;
+  height: 87vh;
+}
+
+.postTitle {
+    font-size: 32px;
+    margin-top: 36px;
+    margin-bottom: 34px;
+}
+
+.tableWrapper {
+  width: 348px;
+}
+
+.tableHead {
+  border-top: 1px solid #A6A2A2;
+  border-bottom: 1px solid #A6A2A2;
+  display: flex;
+  align-items: center;
+  height: 45px;
+}
+
+.tableHead div{
+  width: 15%;
+}
+
+.tableHead div:first-child {
+  width: 40%;
+}
+
+.tableHead div:nth-child(2) {
+  width: 25%;
+}
+
+.tableHead div:last-child {
+  width: 10%;
+}
+
+.tableBody {
+  font-size: 10px;
+}
+
+.tableBody:hover {
+  background-color: #cfcfcf;
+}
+
+.tables div {
+  display: inline;
+}
+
+.author {
+  height: 45px;
+  display: flex;
+  align-items: center;
+}
+  
+  .authorCell {
+    display: flex;
+    align-items: center;
+  }
+  
+  .authorImage {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+
+  .postBtn {
+    display: flex;
+    margin-bottom: 51px;
+            align-items: center;
+            padding: 10px 7px;
+            border: none;
+            border-radius: 15px;
+            background-color: #f8f8f8;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+            font-size: 16px;
+            font-family: Arial, sans-serif;
+  }
+
+  .btnWrapper {
+    margin-top: 13px;
+    display: flex;
+    justify-content: end;
+  }

@@ -1,0 +1,139 @@
+.pageWrapper {
+    width: 350px;
+    font-family: Pretendard-variable, sans-serif;
+}
+
+.header {
+    line-height: 100%;
+    font-size: 25px;
+}
+
+.header span:first-child {
+    color: #7E7BFF;
+}
+
+.infoWrapper {
+    width: 265px;
+    height: 348px;
+    margin: 0 auto;
+    margin-top: 23px;
+            border: 1px solid #5F6368;
+            border-radius: 5px;
+            overflow: hidden;
+            font-family: Arial, sans-serif;
+}
+
+.imgWrapper {
+    height: 153px;
+    padding: 0 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tableWrapper {
+    height: 235px;
+}
+
+.tableWrapper div {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    padding: 10px 18px;
+    font-family: Pretendard-variable, sans-serif;
+    border-top: 1px solid #A6A2A2;
+}
+.tableWrapper div span {
+    line-height: 100%;
+    width: 65%;
+    text-align: start;
+}
+
+.tableWrapper div span:last-child {
+    width: 37%;
+}
+
+.tableWrapper2 {
+    height: 260px;
+}
+
+.tableWrapper2 div {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    padding: 10px 18px;
+    font-family: Pretendard-variable, sans-serif;
+    border-top: 1px solid #A6A2A2;
+}
+.tableWrapper2 div span {
+    line-height: 100%;
+    width: 65%;
+    text-align: start;
+}
+
+.tableWrapper2 div span:last-child {
+    width: 37%;
+}
+
+.menuWrapper {
+    height: 272px;
+    display: grid;
+    margin-top: 35px;
+    grid-template-rows: 1fr 1fr; /* 2개의 행을 동일한 크기로 설정 */
+            grid-template-columns: 1fr 1fr; /* 2개의 열을 동일한 크기로 설정 */
+            gap: 30px; /* 그리드 항목 사이의 간격 */
+}
+
+.menuWrapper div {
+    background-color: #8DCDFC; /* 배경 색상 */
+    border-radius: 10px;
+    height: 117px;
+            border: 1px solid #ccc; /* 테두리 색상 */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            gap: 6px;
+}
+
+.menuWrapper div span {
+    font-family: Pretendard-variable, sans-serif;
+    font-size: 18px;
+}
+
+.menuWrapper div:first-child {
+    background-color: #EFF7FF;
+}
+
+.menuWrapper div:nth-child(2) {
+    background-color: #FEAB9D;
+}
+
+.menuWrapper div:last-child {
+    background-color: #F7FFC2;
+}
+/* .imgWrapper img {
+    width: 130px;
+    height: 90px;
+}
+
+.infoWrapper table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.infoWrapper tr {
+    border-top: 1px solid #A6A2A2;
+    border-bottom: 1px solid #A6A2A2;
+    height: 38px;
+}
+
+.infoWrapper td {
+    box-sizing: border-box;
+    padding: 10px 9px;
+    font-size: 18px;
+            text-align: left;
+} */
+
+
+

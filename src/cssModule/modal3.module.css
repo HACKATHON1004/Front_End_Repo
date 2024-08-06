@@ -1,0 +1,37 @@
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .modalContent {
+    background-color: #d9d9d9;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    width: 80%;
+    height: 149px;
+  }
+
+  .btnWrapper {
+    height: 50%;
+    display: flex;
+  }
+
+  .modalButton {
+    width: 100%;
+    background-color: #d9d9d9;
+    border-radius: 20px;
+    font-size: 20px;
+  }
+
+  .modalButton:hover {
+    background-color: #9e9e9e;
+  }

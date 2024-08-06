@@ -1,0 +1,112 @@
+.pageWrapper {
+  margin-top: 50px;
+    width: 325px;
+    height: 85vh;
+    font-family: Pretendard-variable, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .title {
+    margin-top: 34px;
+    text-align: left;
+    font-size: 18px;
+    margin-bottom: 22px;
+  }
+
+  .title span {
+    font-family: Pretendard-variable, sans-serif;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+    height: 32px;
+  }
+  
+  .viewButton {
+    width: 47%;
+    justify-content: center;
+    background-color: #cccccc;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 7px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+  }
+  
+  .writeButton {
+    width: 43%;
+    justify-content: center;
+    background-color: #f5f5f5;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 7px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+  }
+  
+  .icon {
+    font-size: 14px;
+  }
+  
+  .dateLabel {
+    text-align: left;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 14px;
+  }
+  
+  .selectors {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 7px;
+  }
+
+  .selectors input {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+      width: 52%;
+      margin: 0;
+      font-size: 15px;
+      height: 30px;
+      border: 1px solid black;
+      border-radius: 10px;
+  }
+  
+  .select {
+    width: 60px;
+    margin: 0;
+    padding: 5px;
+    border: 1px solid #000;
+    border-radius: 5px;
+  }
+
+  .tableWrapper {
+    margin-top: 7px;
+  }
+
+  .tableHeader {
+    font-size: 30px;
+  }
+
+  .btnWrapper {
+    margin: 20px auto;
+  }
+
+  .searchBtn {
+    border-radius: 10px;
+    background-color: #B9E0FD;
+    padding: 12px 20px;
+  }

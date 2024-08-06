@@ -1,0 +1,266 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+.Container {
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin-top: 130px;
+}
+
+.Form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  width: 350px;
+  height: 949px;
+}
+
+/* .Label {
+  margin: 10px 0 40px;
+  font-size: 30px;
+  font-weight: 400;
+  font-family: 'PretendardVariable', sans-serif;
+  
+  height: 30px;
+  
+} */
+.NLabel{
+  margin: 10px 0 ;
+  font-size: 26px;
+  font-weight: 400;
+  font-family: 'PretendardVariable', sans-serif;
+  display: flex;
+  height: 30px;
+}
+.ELabel{
+  margin: 10px 0 ;
+  font-size: 26px;
+  font-weight: 400;
+  font-family: 'PretendardVariable', sans-serif;
+  display: flex;
+  height: 30px;
+}
+.ILabel{
+  margin: 10px 0 ;
+  font-size: 26px;
+  font-weight: 400;
+  font-family: 'PretendardVariable', sans-serif;
+  display: flex;
+  height: 30px;
+}
+.SLabel{
+  margin: 10px 0 ;
+  font-size: 26px;
+  font-weight: 400;
+  font-family: 'PretendardVariable', sans-serif;
+  display: flex;
+  height: 30px;
+}
+.RLabel{
+  width: 100%;
+  margin: 10px 0 ;
+  font-size: 26px;
+  font-weight: 400;
+  font-family: 'PretendardVariable', sans-serif;
+  display: flex;
+  height: 30px;
+}
+
+.Saw {
+  font-weight: 600;
+  font-size: 12px;
+  font-family: 'PretendardVariable', sans-serif;
+}
+
+.ErrorMessage {
+  color: #FF0000;
+  margin-top: 2px;
+  font-size: 13.5px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  width: 70%;
+  text-align: left;
+  height: 18px;
+  font-family: 'PretendardVariable', sans-serif;
+}
+
+.IdMessage {
+  margin-top: 7px;
+  width: 171px;
+  height: 18px;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: left;
+  font-family: 'PretendardVariable', sans-serif;
+}
+
+.IdMessage.error {
+  color: red;
+  margin-right: 30px;
+}
+
+.IdMessage.success {
+  color: green;
+}
+
+.Input {
+  border: none;
+  border-bottom: 2px solid #000;
+  width: 340px;
+  display: flex;
+  height: 60px;
+  font-size: 26px;
+  margin-bottom: 0;
+}
+
+.Input:focus {
+  outline: none;
+  border-bottom-color: #000;
+}
+
+.Button {
+  background-color:white;
+  border: 0.7px solid #ccc;
+  width: 125px;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: 'PretendardVariable', sans-serif;
+  border-radius: 5px;
+  font-weight: 600;
+  height: 39px;
+  background-color: #ffffff; 
+  border: 1px solid #ffffff;     
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.25);
+  margin-bottom: 45px;
+}
+
+.Button:hover {
+  background-color: #f0f0f0;
+}
+
+.ButtonInline {
+  width: 87px;
+  height: 44px;
+  font-size: 13px;
+  background-color: white;
+  border: 0.7px solid #ccc;
+  border-radius: 10px;
+  background-color: #ffffff; 
+  border: 1px solid #ffffff;     
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.25);
+ 
+}
+
+.ButtonContainer {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 340px;
+  background-color: white;
+  height: 44px;
+  font-weight: 400;
+  border-radius: 10px;
+}
+
+.CheckboxContainer {
+  align-items: center;
+  margin-top: 19px;
+  font-size: 15px;
+  display: flex;
+  height: 18px;
+}
+.Wrapper{
+  margin: 0 auto;
+  width: 330px;
+  height: 70px;
+  align-items: center;
+  display: flex;
+  justify-content:space-between;
+}
+
+.Checkbox {
+  
+  width: 18px;
+  height: 18px;
+  accent-color: black;
+}
+
+.viewWrapper {
+  gap: 8px;
+  height: 18px;
+  justify-content: end;
+  width: 30%;
+  display: flex;
+  align-items: center;
+}
+.Name{
+  height: 146px;
+  
+}
+.Email{
+  height: 146px;
+  
+  margin-top: 50px;
+}
+.ID{
+  height: 146px;
+  margin-top: 50px;
+}
+.PW{
+  height: 146px;
+  margin-top: 50px;
+}
+.RPW{
+  height: 146px;
+  margin-top: 50px;
+}
+.Membershipbutton{
+  width: 120px;
+  height: 39px;
+  margin-top: 110px;
+  background-color:#f0f0f0;
+}

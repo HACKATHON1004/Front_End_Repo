@@ -1,0 +1,222 @@
+.container {
+    margin-top: 130px;
+    width: 350px;
+  }
+  
+.noticeSection {
+   
+    display: flex;
+    width: 100%;
+    height: 372px;
+}
+.inquirySection{
+    
+    display: flex;
+    width: 350px;
+    height: 491px;
+    
+}
+.NsectionTitle {
+    font-size: 25px;
+    width: 100px;
+    height: 36px;
+    font-weight: 400;
+    display: flex;
+    font-family: 'PretendardVariable', sans-serif;
+}
+.SsectionTitle {
+    font-size: 25px;
+    width: 153px;
+    height: 29px;
+    font-weight: 400;
+    display: flex;
+    text-align: center;
+    font-family: 'PretendardVariable', sans-serif;
+}
+
+.imgService{
+    display: flex;
+}
+.imgNotice{
+    display: flex;
+}
+.imgWapper{
+    display: flex;
+    width: 350px;
+}
+.img1Wapper{
+    display: flex;
+    margin-top: 31px;
+    width: 350px;
+}
+.Noticebox{
+   width: 350px;
+   height: 319px;
+  
+   
+   
+}
+  
+.noticeItem {
+    border: 1px solid #ddd;
+    width:345px ;
+    height: 62px;
+    margin-top: 21px;
+    border-radius: 5px;
+    background-color: #ffffff; 
+    border: 1px solid #ffffff;     
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.25);
+    margin-bottom: 10px;
+    
+}
+  
+.noticeDate {
+    font-size: 13px;
+    color: black;
+    width: 100px;
+    height: 15px;
+    font-weight: 400;
+   margin-top: 9px;
+   display: flex;
+   margin-left: 9px;
+    font-family: 'PretendardVariable', sans-serif;
+    margin-bottom: 5px;
+}
+  
+.noticeContent {
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'PretendardVariable', sans-serif;
+    width: 370px;
+    display: flex;
+    margin-left: 9px;
+    height: 20px;
+    color: black;
+  
+    margin-top: 8px;
+}
+  
+.inquiryForm {
+    display: flex;
+    flex-direction: column;
+}
+  
+.formGroup {
+    width: 350px;
+    margin-bottom: 15px;
+}
+  
+.formGroup label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+}
+  
+.formGroup input, .formGroup select, .formGroup textarea {
+    width: 350px;
+    display: flex;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.formGroup input {
+    width: 350px;
+}
+  
+.formGroup textarea {
+    height: 140px;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    font-family: 'PretendardVariable', sans-serif;
+    background-color: #ffffff; 
+    border: 1px solid #ffffff; 
+    padding: 0;  
+    color:black;  
+    border-radius: 5px;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.25);
+}
+  
+.submitButton {
+    width: 116px;
+    height: 50px;
+    color: black;
+    background-color: #B9E0FD; 
+    border: 1px solid #B9E0FD; 
+    padding: 0;   
+    font-family: 'PretendardVariable', sans-serif;
+    font-weight: 600;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 17px;
+}
+  
+.submitButton:hover {
+    background-color: #0056b3;
+}
+.submitWapper{
+    margin-top: 20px;
+}
+.Elabel{
+    display: flex;
+    margin-top: 21px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'PretendardVariable', sans-serif;
+}
+.Nlabel{
+    display: flex;
+    margin-top: 31px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'PretendardVariable', sans-serif;
+}
+.Slabel{
+    display: flex;
+    margin-top: 23px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'PretendardVariable', sans-serif;
+    margin-bottom: 7px;
+}
+.formGroup input{
+    height: 39px; 
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'PretendardVariable', sans-serif;
+    background-color: #ffffff; 
+    border: 1px solid #ffffff; 
+    padding: 0;  
+    color:black;  
+    
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.formGroup select{
+    height: 39px; 
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'PretendardVariable', sans-serif;
+    background-color: #ffffff; 
+    border: 1px solid #ffffff; 
+    padding: 0;  
+    border-radius: 5px;
+    color:gray;  
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.25);
+
+}
+
+.Nselect option{
+    font-size: 13px;
+
+    font-weight: 400;
+    font-family: 'PretendardVariable', sans-serif;
+    background-color: #ffffff; 
+    border: 1px solid #ffffff; 
+    border: 2px solid black; 
+    padding: 0;  
+    border-radius: 5px;
+    color:black;  
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.25);
+}
